@@ -6,7 +6,7 @@ DevLang is an interactive frontend code optimization workbench built using React
 ## Preview
 -----------------------------------------------------------------------------------------
 
-![](devl)
+![](devl.png)
 
 ##  Architectural Features Explored
 -----------------------------------------------------------------------------------------
