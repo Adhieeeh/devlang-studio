@@ -1,16 +1,11 @@
-# React + Vite
+#  DevLang — Client-Side Programming Language Lexer & Compiler Sandbox (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+DevLang is an interactive frontend code optimization workbench built using React client component rules. It implements a functional micro-language token lexer that parses raw text string buffers, breaks down keywords and identifier statements into structured token arrays, and manages isolated local register states to track custom evaluations and emit diagnostic runtime metrics without third-party tools.
 
-Currently, two official plugins are available:
+##  Architectural Features Explored
+*  **Lexical Scanning Parsers:** Uses custom regular expression boundaries and matrix filtering to translate raw strings into individual structural tokens live.
+*  **Fault-Tolerant Syntactic Bounds:** Employs precise boundary line analysis parameters to report compilation bugs safely down to custom tracers without crashing thread states.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+##  Running Instructions
+1. Setup package targets: `npm install`
+2. Launch runtime workspace HUD: `npm run dev`
