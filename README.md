@@ -14,5 +14,5 @@ DevLang is an interactive frontend code optimization workbench built using React
 *  **Lexical Scanning Parsers:** Uses custom regular expression boundaries and matrix filtering to translate raw strings into individual structural tokens live.
 *  **Fault-Tolerant Syntactic Bounds:** Employs precise boundary line analysis parameters to report compilation bugs safely down to custom tracers without crashing thread states.
 
-##  Running Instructions
+
 ------------------------------------------------------------------------------------------
